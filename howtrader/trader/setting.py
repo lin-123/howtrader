@@ -26,7 +26,7 @@ SETTINGS: Dict[str, Any] = {
     "email.sender": "",
     "email.receiver": "",
 
-    "database.timezone": get_localzone().zone,
+    "database.timezone": get_localzone().key,
     "database.driver": "sqlite",                # see database.Driver
     "database.database": "database.db",         # for sqlite, use this as filepath
     "database.host": "localhost",
